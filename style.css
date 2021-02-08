@@ -1,0 +1,62 @@
+body{ 
+    padding: 25px;
+}
+.hungry-monster{
+    color:red;
+}
+header{
+    height: 40px;
+    margin-bottom: 20px;   
+}
+.Container{
+    padding: 30px 300px ;
+    display: flex;
+    margin-top: 150px;
+}
+#link-container{
+    float: right;
+}   
+.link-header{
+    float:left;
+    padding-right: 5px;
+    margin-right: 50px;
+    margin-top: 2%;
+}
+#search{
+    background-color:peru;
+    color: white;
+}
+#Search-result{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-gap: 2%;  
+}
+#error{
+    text-align: center;
+    color: red;
+    margin-top: 40px;
+}
+.mealDiv{
+    text-align: center;
+    background-color:khaki;
+}
+#foodsDetail{
+    margin-top: 40px;
+    display: block;
+    margin-left: 45%;  
+}
+#foodsDetail img{
+    display: block;
+    width: 30%;
+}
+#foodsDetail h2{
+    padding: 20px 0px;
+    font-weight:400;
+}
+
+.mealDiv img{
+    display: block;
+    width: 100%;
+    border-radius: 20px 20px;
+}
